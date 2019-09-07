@@ -1,0 +1,35 @@
+{
+	"name": "mithril-jsx-starter-kit",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack-dev-server",
+		"build": "webpack -p"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://pierbover@github.com/PierBover/mithril-jsx-starter-kit.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/PierBover/mithril-jsx-starter-kit/issues"
+	},
+	"homepage": "https://github.com/PierBover/mithril-jsx-starter-kit#readme",
+	"devDependencies": {
+		"@babel/core": "^7.6.0",
+		"@babel/plugin-transform-react-jsx": "^7.3.0",
+		"@babel/preset-env": "^7.6.0",
+		"babel-loader": "^8.0.6",
+		"babel-plugin-jsx-control-statements": "^4.0.0",
+		"html-webpack-plugin": "^3.2.0",
+		"webpack": "^4.39.3",
+		"webpack-cli": "^3.3.8",
+		"webpack-dev-server": "^3.8.0"
+	},
+	"dependencies": {
+		"mithril": "^2.0.4"
+	}
+}
